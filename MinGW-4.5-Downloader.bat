@@ -14,15 +14,15 @@ mkdir _downloaded2
 echo //-------------------------------------------------------------------------//
 echo // Downloading packages...
 
-echo // - C Language and its shared runtime
+echo // - C compiler and shared runtime
 wget -q -O_downloaded/gcc-core-4.5.0-1-mingw32-bin.tar.lzma http://prdownloads.sourceforge.net/mingw/gcc-core-4.5.0-1-mingw32-bin.tar.lzma?download
 wget -q -O_downloaded/libgcc-4.5.0-1-mingw32-dll-1.tar.lzma http://prdownloads.sourceforge.net/mingw/libgcc-4.5.0-1-mingw32-dll-1.tar.lzma?download
 
-echo // - C++ Language and its shared runtime
+echo // - C++ compiler and shared runtime
 wget -q -O_downloaded/gcc-c++-4.5.0-1-mingw32-bin.tar.lzma http://prdownloads.sourceforge.net/mingw/gcc-c%%2B%%2B-4.5.0-1-mingw32-bin.tar.lzma?download
 wget -q -O_downloaded/libstdc++-4.5.0-1-mingw32-dll-6.tar.lzma http://prdownloads.sourceforge.net/mingw/libstdc%%2B%%2B-4.5.0-1-mingw32-dll-6.tar.lzma?download
 
-echo // - Bintuls
+echo // - Binutils
 wget -q -O_downloaded/binutils-2.20.1-2-mingw32-bin.tar.gz http://prdownloads.sourceforge.net/mingw/binutils-2.20.1-2-mingw32-bin.tar.gz?download
 
 echo // - MinGW runtime
