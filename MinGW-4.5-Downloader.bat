@@ -132,6 +132,7 @@ echo // Removing temporary files...
 
 del tests\test_c.exe
 del tests\test_cpp.exe
+
 del _downloaded\gcc-core-4.5.0-1-mingw32-bin.tar.lzma
 del _downloaded\libgcc-4.5.0-1-mingw32-dll-1.tar.lzma
 del _downloaded\gcc-c++-4.5.0-1-mingw32-bin.tar.lzma
@@ -153,6 +154,7 @@ del _downloaded\libssp-4.5.0-1-mingw32-dll-0.tar.lzma
 del _downloaded\gdb-7.1-2-mingw32-bin.tar.gz
 del _downloaded\libexpat-2.0.1-1-mingw32-dll-1.tar.gz
 del _downloaded\make-3.81-20090914-mingw32-bin.tar.gz
+
 del _downloaded2\gcc-core-4.5.0-1-mingw32-bin.tar
 del _downloaded2\libgcc-4.5.0-1-mingw32-dll-1.tar
 del _downloaded2\gcc-c++-4.5.0-1-mingw32-bin.tar
@@ -174,6 +176,7 @@ del _downloaded2\libssp-4.5.0-1-mingw32-dll-0.tar
 del _downloaded2\gdb-7.1-2-mingw32-bin.tar
 del _downloaded2\libexpat-2.0.1-1-mingw32-dll-1.tar
 del _downloaded2\make-3.81-20090914-mingw32-bin.tar
+
 rmdir _downloaded
 rmdir _downloaded2
 
@@ -190,7 +193,7 @@ echo // You can use Run-cmd-with-Mingw-4.5.bat to use gcc, g++, etc. from the
 echo // command line if you do not want to modify your PATH variable.
 echo //
 
-echo @echo off                                 >Run-cmd-with-%MINGW_NAME%.bat
+echo @echo off                                  >Run-cmd-with-%MINGW_NAME%.bat
 echo set PATH=%%CD%%\%MINGW_NAME%\bin;%%PATH%% >>Run-cmd-with-%MINGW_NAME%.bat
 echo cmd                                       >>Run-cmd-with-%MINGW_NAME%.bat
 
