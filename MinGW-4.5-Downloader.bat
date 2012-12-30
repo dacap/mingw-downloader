@@ -1,3 +1,4 @@
+@REM Copyright (C) 2010 by David Capello
 @echo off
 set MINGW_NAME=MinGW-4.5
 

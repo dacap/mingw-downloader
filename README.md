@@ -17,6 +17,3 @@ use them anywhere.
 ## Problems?
 
 Report errors to davidcapello@gmail.com
-
----
-Copyright (C) 2010 by David Capello
