@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Uncompress [MinGW-Downloader.zip](http://dacap.com.ar/files/MinGW-Downloader-0.2.zip)
+1. Uncompress [MinGW-Downloader.zip](http://dacap.com.ar/files/MinGW-Downloader.zip)
    in `C:\Compilers` (or any other folder without spaces)
 2. Execute `C:\Compilers\MinGW-Downloader\MinGW-4.5-Downloader.bat`
 3. Wait until it finishes.
