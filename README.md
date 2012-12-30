@@ -1,6 +1,6 @@
-MinGW Downloader - Copyright (C) 2010 by David Capello
+# MinGW Downloader
 
-# INSTRUCTIONS
+## Instructions
 
 1. Uncompress [MinGW-Downloader.zip](http://dacap.com.ar/files/MinGW-Downloader-0.2.zip)
    in `C:\Compilers` (or any other folder without spaces)
@@ -14,6 +14,9 @@ Finally the `MinGW-4.5` folder and `Run-cmd-with-MinGW-4.5.bat` file
 are portable, which means that you can copy both in a pen drive and
 use them anywhere.
 
-# PROBLEMS?
+## Problems?
 
 Report errors to davidcapello@gmail.com
+
+---
+Copyright (C) 2010 by David Capello
