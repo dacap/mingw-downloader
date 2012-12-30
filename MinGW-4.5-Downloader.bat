@@ -189,7 +189,7 @@ echo //
 echo // You have %MINGW_NAME% ready to use in the following path:
 echo // %CD%\%MINGW_NAME%
 echo //
-echo // You can use Run-cmd-with-Mingw-4.5.bat to use gcc, g++, etc. from the
+echo // You can execute Run-cmd-with-Mingw-4.5.bat to use gcc, g++, etc. from the
 echo // command line if you do not want to modify your PATH variable.
 echo //
 
